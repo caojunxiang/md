@@ -1,0 +1,16 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#56ff56" id="svg_2" d="m134.552482,117.578257l119.174247,0l36.825759,-79.067171l36.82578,79.067171l119.174226,0l-96.413814,48.86564l36.827665,79.067171l-96.413856,-48.866971l-96.413835,48.866971l36.827675,-79.067171l-96.413846,-48.86564z" stroke-width="1.5" fill="#39cc39"/>
+  <text font-weight="bold" stroke="#000" transform="matrix(2.572983266961751,0,0,3.208827166617018,-292.59294383307,-334.60061245017073) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="209.492235" x="170.118726" stroke-opacity="null" stroke-width="0" fill="#aa56ff">知识碎片库</text>
+ </g>
+</svg>
