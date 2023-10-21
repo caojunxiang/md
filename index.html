@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="pragma" content="no-cache" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue"/>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" title="dark" disabled/>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" title="buble" disabled/>
@@ -37,26 +38,26 @@
   <script>
     window.$docsify = {
       loadSidebar: true,
+      name: '碎片知识库',
       coverpage: true,
       onlyCover: false,
       search: {
-		  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-		  // 支持本地化
-		  placeholder: {
-			'/zh-cn/': '搜索',
-			'/': '搜索'
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        // 支持本地化
+        placeholder: {
+        '/zh-cn/': '搜索',
+        '/': '搜索'
 		  },
-
 		  // 支持本地化
 		  noData: {
-			'/zh-cn/': '找不到结果',
-			'/': '找不到结果'
+        '/zh-cn/': '找不到结果',
+        '/': '找不到结果'
 		  },
+		  depth: 6, // 搜索标题的最大层级, 1 - 6
+      hideOtherSidebarContent: true, // 搜索时，是否隐藏其他侧边栏内容
 
-		  // 搜索标题的最大层级, 1 - 6
-		  depth: 6,
-
-		  hideOtherSidebarContent: true, // 是否隐藏其他侧边栏内容
+      logo: '/logo.svg', // 左侧导航栏出现的logo
+      
 		},
 		disqus: 'shortname'
     }
